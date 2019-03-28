@@ -1,0 +1,93 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none ;
+}
+body{
+	min-width: 1174px;
+}
+/* top  style begin */
+.top{
+	height: 33px;
+	border-bottom: 1px solid #e9e8e8;
+	background: #f8f7f7;
+}
+.top .topFram{
+	width: 1173px;
+	height: 33px;
+	margin: auto;
+}
+.top .topFram .left{
+	height: 33px;
+	width: 50%;
+	float: left;
+	line-height: 33px;
+}
+.top .topFram .left span{
+	color: #b6b6b6;
+	margin-left: 9px;
+	position: relative;
+}
+.top .topFram .left span p{
+	position: absolute;
+	right: 0px;
+	width: 1px;
+	height: 13px;
+	background: #242424;
+	bottom: 4px;
+	right: -18px;
+}
+.top .topFram .left .a{
+	margin-left: 35px;
+}
+.top .topFram .right{
+	height: 33px;
+	float: right;
+	line-height: 33px;
+}
+.top .topFram .right img{
+	vertical-align: middle;
+	font-size:0 ;
+	text-align: center;
+}
+.top .topFram .right a img:hover{
+	transform: scale(1.2);
+}
+.top .topFram .right a{
+	padding-left:11px ;
+	padding-right: 6px;
+	position: relative;
+}
+.top .topFram .right p{
+	width: 1px;
+	height: 16px;
+	background: #e9e8e8;
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+}
+/* top  style 结束 */
+/* title begin */
+.title{
+	height: 96px;
+}
+.title .titleFram{
+	width:1174px;
+	height: 96px;
+	margin: auto;
+	position: relative;
+}
+.title .titleFram .middle{
+	position: absolute;
+	top: 22px;
+	left: 493px;
+	
+}
+.title .titleFram ul,.title .titleFram ul li,.title .titleFram .ul1 li{
+	float: left;
+}
+.title .titleFram .ul1{
+	float:right;
+}
+/* title 结束 */

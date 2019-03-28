@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	<script>
+		//匿名函数
+// 		var fn=function (){
+// 			console.log()
+// 		}
+// 		console.log(fn);
+/*匿名函数后边直接加括号运行或者赋予变量输出。注意：匿名函数前后最好加上分号*/
+// 		;(function(){
+// 			console.log(1)
+// 		})();
+		
+		
+		//递归函数  在函数内部调用函数本身,就是递归函数
+		function fn(num){
+			if(num > 0){
+				return num+fn(--num);
+				/*
+				第一遍
+				return num(2)+fn(--num)[这时开始运行fn(--num)](--num=1)
+				*/
+			}else{
+				return 1;
+			}
+		}
+		console.log(fn(2));
+		
+	</script>
+	</body>
+</html>
